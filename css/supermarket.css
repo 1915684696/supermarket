@@ -1,0 +1,289 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+ul, li, ol {list-style: none;margin:0;}
+img{width:100%;}
+a:hover {color:#000000;}
+
+
+/*头部导航栏*/
+.top_nav{margin: 0px;overflow: hidden;padding: 5px;}
+.top_nav_login{margin-left: 5%;float: left;height: auto;}
+.top_nav_right1{float: right;margin-right: 5%;}
+.top_nav_right2{float: left;margin-left: 10px;}
+
+/*搜索框*/
+.search0{width: 100%;height: 50px;margin: 20px;height: auto;}
+.search1{width: 80%;text-align: center;}
+.search1 img{width: 200px;height: 90px;}
+.search1_input{width: 60%;height: 50px;border: 2;border-color: #F03726}
+.search1_button{width: 10%;height: 50px;font-size: 21px;background-color: #F03726;color: white;border-color: #F03726;border:2;margin-left: -10%;}
+
+/*导航栏*/
+.nav0{
+	height: 45px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.nav0_nav0{
+	width: 15%;
+	float: left;
+	vertical-align: middle;
+	line-height: 45px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	background-color: #D2364C;
+}
+.nav0_nav1{
+	float: left;
+}
+.nav0_nav1 ul li {
+	float: left;
+	font-size: 16px;
+	line-height: 45px;
+	vertical-align: middle;
+	width: 90px;
+	text-align: center;
+	font-weight: bold;
+}
+.nav0_welfare{
+	background: #D2364C;
+	float: right;
+	margin-right: 50px;
+	line-height: 45px;
+	font-size: 16px;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+	width: 15%;
+	color: #FFFF00;
+}
+
+/*banner*/
+.banner{
+	width: 100%;
+	height: 430px;
+}
+.nav1{
+	width: 15%;
+	float: left;
+}
+.kind{
+	border-top:1px solid black;
+	color: white;
+	text-align: center;
+	line-height: 43px;
+	vertical-align: middle;
+	background-color: #434343;
+}
+.kind:hover{
+	cursor: pointer;
+}
+.nav1_all_more{
+	float: left;
+}
+.nav1_more{
+	width: 600px;
+	height: 440px;
+	border-top: 1px solid black;
+	border-right:1px solid black;
+	border-bottom: 1px solid black;
+	float: left;
+	background-color: #fff;
+	color: black;
+	display:none;
+	padding-left: 30px;
+	padding-top: 15px;
+	line-height: 30px;
+}
+.nav1_more_top{
+	overflow: hidden;
+}
+.nav1_more_buttom{
+	margin-top: 50px;
+	overflow: hidden;
+	width: 80%;
+}
+.nav1_more_buttom ul li{
+	list-style: none;
+	margin-left: 5px;
+	color: #888;
+}
+.nav1_more_top_left{
+	width: 50%;
+	float: left;
+}
+.nav1_more_top_right{
+	width: 50%;
+	float: left;
+}
+.top_font{
+	border: 1px solid #e6e6e6;
+	padding-left:8px;
+	padding-right: 8px;
+	float: left;
+	line-height: 18px;
+	margin-left: 15px;
+	margin-top: 7px;
+	color: #888;
+}
+.buttom_font{
+	padding-left:8px;
+	padding-right: 8px;
+	float: left;
+	line-height: 18px;
+	margin-left: 10px;
+	margin-top: 7px;
+	color: #888;
+}
+.banner_img{
+	float: left;
+	width: 75%;
+	height: 440px;
+	position: absolute;
+	margin-left: 14%;
+	z-index: -10;
+	overflow: hidden;
+}
+
+.banner_img img{
+	width: 100%;
+	height: 440px;
+}
+.li_img {
+    width: 900px;
+    float: left;
+    list-style: none;
+   }
+
+.ul_img {
+    width: 6000px;
+    padding: 0px;
+    margin: 0px;
+    transition: all 2s;
+}
+.arrows {
+    z-index: 9999;
+    position: absolute;
+    padding-top: 200px;
+    width: 840px;
+}
+.arrows div{
+	z-index: 99999;
+    font-size: 3em;
+    color: seashell;
+    opacity: 0.5;
+}
+.arrow_left{
+	float: left;
+}
+.arrow_right{
+	float: right;
+}
+
+.news{
+	padding: 10px;
+	height: 440px;
+	width: 200px;
+	background-color: white;
+	color:black;
+	margin-top: 0px;
+	margin-left: 1030px;
+	z-index: 999999;
+	line-height: 25px;
+	border: 1px solid #F37B1D;
+}
+.news font{
+	color: red;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 50px;
+}
+.wangwang{
+overflow: hidden;
+}
+.wangwang .wangwang_img{
+	width: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+}
+.wangwang .wangwang_font{
+	padding-left: 10px;
+	padding-top: 10px;
+	float: left;
+}
+.news .wangwang_font div{
+	size: 14px;
+	color: red;
+	font-weight: bold;
+}
+.wangwang_button{
+	padding: 10px;
+}
+.wangwang_button div{
+	height: 25px;
+	line-height: 25px;
+	vertical-align: middle;
+	width: 70px;
+	background-color: #F37B1D;
+	color: white;
+	text-align: center;
+	float: left;
+	margin-left: 5px;
+}
+.right{
+	position: absolute;
+	width: 2%;
+	background-color: black;
+	right: 0px;
+	height: 100%;
+}
+.content{
+	width: 100%;
+	margin-top: 40px;
+	padding: 20px;
+	border: 1px solid red;
+}
+.jinri{
+	background-color: #605655;
+	width: 300px;
+	height: 150px;
+	vertical-align: middle;
+	float: left;
+}
+.jinri img{
+	width: 50%;
+	margin-left: 30px;
+}
+.jinri_font{
+	color: white;
+	font-size: 30px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.tuijian{
+	overflow: hidden;
+}
+.tuijian ul li {
+	list-style: none;
+	margin-left: 20px;
+	width: 280px;
+	height: 150px;
+	float: left;
+}
+.tuijian_font{
+	float: left;
+	margin-top: 30px;
+}
+.tuijian_img{
+	width: 50%;
+	float: left;
+	margin-left: 40px;
+}
+.tuijian_img{
+	width: 50%;
+}
